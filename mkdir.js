@@ -10,7 +10,7 @@ fs.writeFile('./testfile', 'oh hey, travis', function(err) {
     throw err
   }
 });
-fs.mkdir(path.resolve('./hmm', function(err) {
+fs.mkdir(path.resolve('./hmm'), function(err) {
   if(err) {
     throw err
   }
