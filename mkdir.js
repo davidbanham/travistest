@@ -17,6 +17,8 @@ fs.mkdir(path.resolve('./hmm'), function(err) {
 });
 var testpath = path.resolve('.', 'testrepos')
 var deploydir = path.join(testpath, 'deploy');
+console.log("testpath is", testpath)
+console.log("deploydir is", deploydir)
 fs.mkdir(testpath, function(err){
   if(err) {
     throw err
