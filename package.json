@@ -1,0 +1,18 @@
+{
+  "name": "travistest",
+  "version": "0.0.0",
+  "description": "",
+  "main": "mkdir.js",
+  "scripts": {
+    "test": "node mkdir.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/davidbanham/travistest.git"
+  },
+  "author": "",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/davidbanham/travistest/issues"
+  }
+}
