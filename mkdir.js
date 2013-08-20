@@ -23,9 +23,9 @@ fs.mkdir(testpath, function(err){
   if(err) {
     throw err
   }
-})
-fs.mkdir(deploydir, function(err){
-  if(err) {
-    throw err
-  }
+  fs.mkdir(deploydir, function(err){
+    if(err) {
+      throw err
+    }
+  })
 })
